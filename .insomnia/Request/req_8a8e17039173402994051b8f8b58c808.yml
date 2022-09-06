@@ -1,0 +1,45 @@
+_id: req_8a8e17039173402994051b8f8b58c808
+type: Request
+parentId: fld_d121b0630bde4b5ab9ec982429251bce
+modified: 1660673150723
+created: 1657066943036
+url: https://facewaretech-staging-uuid-5349501.dev.odoo.com/app/signup
+name: Staging Odoo app signup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "jsonrpc": "2.0",
+      "method": "call",
+      "params": {
+    		"password": "qwerty",
+    		"confirm_password": "qwerty",
+    		"login": "jackTest494@im.com",
+    		"name": "Jack Test494"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_23e93b3898644242b7204c2ff5bef508
+  - id: pair_4fd44185b89d442e8c72fc18d17e81c9
+    name: User-Agent
+    value: studiomobile
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: FT1Pass1
+  password: ""
+metaSortKey: -1658862671871
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

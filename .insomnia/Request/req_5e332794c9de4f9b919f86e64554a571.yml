@@ -1,0 +1,61 @@
+_id: req_5e332794c9de4f9b919f86e64554a571
+type: Request
+parentId: fld_98b8278aabb04783819f4e98f30b709c
+modified: 1661563317938
+created: 1661370363153
+url: http://localhost:8083/salesloft/updateperson
+name: Localhost update person
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"params": {
+    		"email": "dude@salesloft.com",
+    		"name": "Test Test1112",
+    		"phone": "333-444-5555",
+    		"title": "Head Tester",
+    		"city": "Oxnard",
+    		"state": "CA",
+    		"country": "USA",
+    		"work_city": "Oakland",
+    		"work_state": "Cali",
+    		"work_country": "United States",
+    		"person_company_name": "TestCo",
+    		"person_company_website": "https://www.co1111.com",
+    		"person_company_industry": "Industry",		
+    		"mql_form_source": "Trial Request",
+    		"sales_channel": "CHINA",
+    		"salesperson": "Emily Fox"
+    	}
+    }
+parameters:
+  - id: pair_30a4a76d89064d288a5164f003c363c3
+    name: email
+    value: test2113@test.com
+    description: ""
+    disabled: true
+headers:
+  - id: pair_f8f95b17b20145caab4a96043ef5e37e
+    name: Authorization
+    value: Bearer
+      v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+    description: ""
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_40c46c2086db4fb5b523f98975effdcf
+    disabled: false
+authentication:
+  type: bearer
+  token: v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+  disabled: true
+metaSortKey: -1659029178684.9062
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

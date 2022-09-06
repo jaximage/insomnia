@@ -1,0 +1,53 @@
+_id: req_6a7a0f27900f4fcaae0ad8b592fd70d9
+type: Request
+parentId: fld_8dc82bc93064493c9e5640c81ea42ba7
+modified: 1660033044963
+created: 1659479571180
+url: http://localhost:8083/app/reset_trial
+name: Docker Odoo reset trial
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >
+    {
+      "jsonrpc": "2.0",
+      "method": "call",
+      "params": {
+    		"deviceId": "74-873a-2a2ad3a671a8", 	
+    		"deviceIdNalpeiron": "3v2CfA47Vtqs5Lai99P9",
+    		"leadPayload":{
+    			"description":
+    			"Q: Was there something you did not learn in your last trial that you hope to learn in this trial extension?\nA: yes\nQ: Are you evaluating any other facial solution?\nA: yes\nQ: Please tell us about the project you are using Studio on.\nA: no\n"},
+    		"licensePId": "7561300100",
+    		"productName": "Faceware Studio",
+    		"session_id":""}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_23e93b3898644242b7204c2ff5bef508
+  - id: pair_6bd6720d6068454aa20db37d8fbe0f6a
+    name: Cookie
+    value: session_id=b025cfabf6ac1dbab204ea1a4f0217ff7decde75
+    description: ""
+  - id: pair_b4436b08d0ac47009dcb8cbfb957745a
+    name: User-Agent
+    value: studiomobile
+    description: ""
+    disabled: true
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: FT1Pass1
+  password: ""
+metaSortKey: -1658862697134
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

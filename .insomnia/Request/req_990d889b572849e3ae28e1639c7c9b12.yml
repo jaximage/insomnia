@@ -1,0 +1,50 @@
+_id: req_990d889b572849e3ae28e1639c7c9b12
+type: Request
+parentId: fld_8dc82bc93064493c9e5640c81ea42ba7
+modified: 1660980020237
+created: 1656584905128
+url: http://localhost:8083/app/signup
+name: Docker Odoo app signup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "jsonrpc": "2.0",
+      "method": "call",
+      "params": {
+    		"password": "qwerty",
+    		"confirm_password": "qwerty",
+    		"login": "jackTest57@im.com",
+    		"name": "Jack Test57"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_23e93b3898644242b7204c2ff5bef508
+  - id: pair_6bd6720d6068454aa20db37d8fbe0f6a
+    name: Cookie
+    value: session_id=b025cfabf6ac1dbab204ea1a4f0217ff7decde75
+    description: ""
+  - id: pair_b4436b08d0ac47009dcb8cbfb957745a
+    name: User-Agent
+    value: studiomobile
+    description: ""
+    disabled: false
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: FT1Pass1
+  password: ""
+metaSortKey: -1658862722347
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

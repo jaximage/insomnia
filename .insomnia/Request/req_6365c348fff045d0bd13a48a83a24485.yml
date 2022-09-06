@@ -1,0 +1,52 @@
+_id: req_6365c348fff045d0bd13a48a83a24485
+type: Request
+parentId: fld_2af6c399934041b2a7705e38e291c750
+modified: 1660771003213
+created: 1659912028542
+url: https://api.salesloft.com/v2/people.json
+name: Salesloft create new person
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email_address": "test123abc1234@gmail.com",
+    	"secondary_email_address": "test123abc1234@gmail.com",
+    	"personal_email_address": "test123abc1234@gmail.com",
+    	"first_name": "AbcTEST",
+    	"last_name": "DefTEST",
+    	"phone": "444 555 6666",
+    	"title": "TESTER",
+    	"city": "Atlanta",
+    	"state": "Georgia",
+    	"country": "United States",
+    	"work_city": "Atlanta",
+    	"work_state": "Georgia",
+    	"work_country": "United States",
+    	"person_company_name": "TEST",
+    	"person_company_website": "test.com",
+    	"person_company_industry": "Information Technology"
+    }
+parameters: []
+headers:
+  - id: pair_f8f95b17b20145caab4a96043ef5e37e
+    name: Authorization
+    value: Bearer
+      v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+    description: ""
+  - name: Content-type
+    value: application/json; charset=utf-8
+    id: pair_21b87b8d0ca743a1a931da8e371f1172
+authentication:
+  type: bearer
+  token: v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+  disabled: true
+metaSortKey: -1659433429391.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

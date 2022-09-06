@@ -1,0 +1,45 @@
+_id: req_24137934b7ef40f5a384a2467c961d8c
+type: Request
+parentId: fld_d121b0630bde4b5ab9ec982429251bce
+modified: 1660774161672
+created: 1658351810788
+url: https://facewaretech-staging-uuid-5349501.dev.odoo.com/web/uuid?login=pafsha.v.sol@gmail.com
+name: Staging Odoo web uuid
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |
+    {
+      "jsonrpc": "2.0",
+      "method": "call",
+      "params": {
+        "login": "uuid@perf.test"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/html
+    id: pair_23e93b3898644242b7204c2ff5bef508
+  - id: pair_686410db73ef4b0cb5f6f9d00a8e151b
+    name: Cookie
+    value: session_id=16b3d19b0db5de4fb96fb2cca6c69fb9e67a9698
+    description: ""
+  - id: pair_0c297cfd7d294da1a3fb3524c812775e
+    name: User-Agent
+    value: FacewareMobile/1.0 iOS
+    description: ""
+  - id: pair_b4f81779a8184a46a777adf4af35f171
+    name: X-Secret
+    value: fti-4b42-70e6-13ed-a5b4-fwmob
+    description: ""
+authentication: {}
+metaSortKey: -1658862671921
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

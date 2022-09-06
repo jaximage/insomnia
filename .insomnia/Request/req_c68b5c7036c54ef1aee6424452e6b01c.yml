@@ -1,0 +1,38 @@
+_id: req_c68b5c7036c54ef1aee6424452e6b01c
+type: Request
+parentId: fld_8dc82bc93064493c9e5640c81ea42ba7
+modified: 1658862790175
+created: 1658350224083
+url: http://localhost:8083/web/session/authenticate
+name: Docker Odoo web authenticate
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "jsonrpc": "2.0", 
+        "params": {
+            "db": "lead_gen", 
+            "login": "josh@facewaretech.com", 
+            "password": "Puffer320"
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_23e93b3898644242b7204c2ff5bef508
+  - id: pair_0c297cfd7d294da1a3fb3524c812775e
+    name: User-Agent
+    value: FacewareMobile/1.0 iOS
+    description: ""
+authentication: {}
+metaSortKey: -1658862722522
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,41 @@
+_id: req_91b16e5f9f5d4024b208b4ae8aa3b053
+type: Request
+parentId: fld_8dc82bc93064493c9e5640c81ea42ba7
+modified: 1660123895515
+created: 1658211233231
+url: http://localhost:8083/web/test?login=fest3@gmail.com
+name: Docker Odoo web test
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |
+    {
+      "jsonrpc": "2.0",
+      "method": "call",
+      "params": {
+        "login": "fest3@gmail.com"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/html
+    id: pair_23e93b3898644242b7204c2ff5bef508
+  - id: pair_686410db73ef4b0cb5f6f9d00a8e151b
+    name: Cookie
+    value: session_id=16b3d19b0db5de4fb96fb2cca6c69fb9e67a9698
+    description: ""
+  - id: pair_0c297cfd7d294da1a3fb3524c812775e
+    name: User-Agent
+    value: FacewareMobile/1.0 iOS
+    description: ""
+authentication: {}
+metaSortKey: -1658862722447
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

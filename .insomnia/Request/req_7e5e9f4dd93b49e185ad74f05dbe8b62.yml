@@ -1,0 +1,33 @@
+_id: req_7e5e9f4dd93b49e185ad74f05dbe8b62
+type: Request
+parentId: fld_06613140bf1e474893ce64214c697141
+modified: 1658864796113
+created: 1656396488859
+url: https://my.nalpeiron.com/shaferws.asmx/AddGroupUser
+name: Nalpeiron create user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "jsonrpc": "2.0",
+     	"params": {
+    		'Auth': '<auth><username>FacewareTech</username><password>FTIPass1</password><customerid>5064</customerid></auth>',
+    		'Data': '<data><username>jackson.kim3@image-metrics.com</username></data>'
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b3da276fd67d460ba37a2a16108da9f6
+authentication: {}
+metaSortKey: -1656396488859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

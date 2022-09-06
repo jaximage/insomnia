@@ -1,0 +1,45 @@
+_id: req_b2457784b58743f68a4a510f4597b11e
+type: Request
+parentId: fld_6a0fb9a8e5a04fe59cebb1325eeefe4b
+modified: 1661201496231
+created: 1661191197359
+url: https://facewaretech.odoo.com/app/signup
+name: Odoo app signup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "jsonrpc": "2.0",
+      "method": "call",
+      "params": {
+    		"password": "qwerty",
+    		"confirm_password": "qwerty",
+    		"login": "jackTest603@im.com",
+    		"name": "Jack Test603"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_23e93b3898644242b7204c2ff5bef508
+  - id: pair_4fd44185b89d442e8c72fc18d17e81c9
+    name: User-Agent
+    value: studiomobile
+    description: ""
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: FT1Pass1
+  password: ""
+metaSortKey: -1658862671971
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

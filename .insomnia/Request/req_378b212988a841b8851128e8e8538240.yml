@@ -1,0 +1,41 @@
+_id: req_378b212988a841b8851128e8e8538240
+type: Request
+parentId: fld_98b8278aabb04783819f4e98f30b709c
+modified: 1661564262330
+created: 1660023033947
+url: http://localhost:8083/salesloft/getpersons
+name: Localhost get persons
+description: ""
+method: GET
+body:
+  mimeType: text/plain
+  text: ""
+parameters:
+  - id: pair_30a4a76d89064d288a5164f003c363c3
+    name: emails
+    value: schiffer@oxy.edu
+    description: ""
+    disabled: false
+headers:
+  - id: pair_f8f95b17b20145caab4a96043ef5e37e
+    name: Authorization
+    value: Bearer
+      v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+    description: ""
+    disabled: true
+  - name: Content-Type
+    value: text/plain
+    id: pair_40c46c2086db4fb5b523f98975effdcf
+    disabled: true
+authentication:
+  type: bearer
+  token: v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+  disabled: true
+metaSortKey: -1659243193751.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

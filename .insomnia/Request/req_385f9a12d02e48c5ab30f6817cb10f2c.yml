@@ -1,0 +1,44 @@
+_id: req_385f9a12d02e48c5ab30f6817cb10f2c
+type: Request
+parentId: fld_2af6c399934041b2a7705e38e291c750
+modified: 1661385987403
+created: 1660117405844
+url: https://api.salesloft.com/v2/people/63046636.json
+name: Salesloft get person by id
+description: ""
+method: GET
+body:
+  mimeType: text/plain
+  text: ""
+parameters:
+  - id: pair_583f7ebf10e640329f02d92513f10165
+    name: id
+    value: "62821086"
+    description: ""
+    disabled: true
+  - id: pair_7d745b9e1da94c6e8172ad8a47ac4956
+    name: person_id
+    value: "63046636"
+    description: ""
+    disabled: true
+headers:
+  - id: pair_f8f95b17b20145caab4a96043ef5e37e
+    name: Authorization
+    value: Bearer
+      v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+    description: ""
+  - name: Content-Type
+    value: text/plain
+    id: pair_40c46c2086db4fb5b523f98975effdcf
+authentication:
+  type: bearer
+  token: v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+  disabled: true
+metaSortKey: -1659433429541.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

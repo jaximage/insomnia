@@ -1,0 +1,119 @@
+_id: req_415e58f874e749f8b78059aaf39def40
+type: Request
+parentId: fld_98b8278aabb04783819f4e98f30b709c
+modified: 1662454539151
+created: 1660550960979
+url: http://localhost:8083/salesloft/updateodoocallback
+name: Localhost update callback
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+        "custom_fields": {
+            "MQL Form Source": "Webinar",
+            "Sales Channel": "BENELUX",
+            "Salesperson": "Emily Fox"
+        },
+        "first_name": "Test0014",
+        "last_name": "Last0014",
+        "email_address": "callback@dude.com",
+        "phone": "7777777777",
+        "city": "Las Vegas",
+        "country": "France",
+        "person_company_name": "New Comp",
+    		"person_company_industry": "Gaming",
+    		"counts": {
+            "calls": 18,
+            "emails_bounced": 3,
+            "emails_clicked": 5,
+            "emails_replied_to": 1,
+            "emails_sent": 2,
+            "emails_viewed": 2
+        },
+        "home_phone": "None",
+        "import": {
+            "_href": "https://api.salesloft.com/v2/imports/2852942",
+            "id": 2852942
+        },
+        "contact_restrictions": [],
+        "cadences": [],
+        "updated_at": "2022-08-14T02:48:03.479122-04:00",
+        "title": "Callback Title",
+        "bouncing": "False",
+        "mobile_phone": "None",
+        "display_name": "Callback Name",
+        "locale": "None",
+        "locale_utc_offset": "None",
+        "state": "None",
+        "twitter_handle": "None",
+        "eu_resident": "False",
+        "account": {
+            "_href": "https://api.salesloft.com/v2/accounts/22927006",
+            "id": 22927006
+        },
+        "crm_object_type": "None",
+        "id": 63046636,
+        "untouched": "True",
+        "crm_url": "None",
+        "last_completed_step_cadence": "None",
+        "full_email_address": "'Callback Dude' <callback@dude.com>",
+        "last_contacted_by": "None",
+        "last_completed_step": "None",
+        "job_seniority": "Callback Seniority",
+        "tags": [],
+        "secondary_email_address": "None",
+        "last_replied_at": "None",
+        "work_country": "None",
+        "person_stage": "None",
+        "do_not_contact": "False",
+        "linkedin_url": "None",
+        "phone_extension": "None",
+        "success_count": "None",
+        "personal_website": "None",
+        "most_recent_cadence": "None",
+        "work_city": "None",
+        "starred": "None",
+        "owner_crm_id": "None",
+        "last_contacted_type": "None",
+        "created_at": "2022-08-12T18:17:21.775732-04:00",
+        "personal_email_address": "None",
+        "person_company_website": "http://callback.dude.com",
+        "last_contacted_at": "None",
+        "crm_id": "None",
+        "owner": {
+            "_href": "https://api.salesloft.com/v2/users/35026",
+            "id": 35026
+        },
+        "work_state": "None"
+    }
+parameters:
+  - id: pair_30a4a76d89064d288a5164f003c363c3
+    name: email
+    value: test2113@test.com
+    description: ""
+    disabled: true
+headers:
+  - id: pair_f8f95b17b20145caab4a96043ef5e37e
+    name: Authorization
+    value: Bearer
+      v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+    description: ""
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_40c46c2086db4fb5b523f98975effdcf
+    disabled: false
+authentication:
+  type: bearer
+  token: v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+  disabled: true
+metaSortKey: -1659005399233.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

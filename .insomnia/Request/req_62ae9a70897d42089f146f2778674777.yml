@@ -1,0 +1,37 @@
+_id: req_62ae9a70897d42089f146f2778674777
+type: Request
+parentId: fld_2af6c399934041b2a7705e38e291c750
+modified: 1661370189360
+created: 1659954301651
+url: https://api.salesloft.com/v2/people.json
+name: Salesloft get persons
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"email_addresses": ["nicholas.glean@sunderland.ac.uk", "test1659948665@test.com","test12345abc123@gmail.com","test1659948610@test.com"]
+    }
+parameters: []
+headers:
+  - id: pair_f8f95b17b20145caab4a96043ef5e37e
+    name: Authorization
+    value: Bearer
+      v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_40c46c2086db4fb5b523f98975effdcf
+authentication:
+  type: bearer
+  token: v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+  disabled: true
+metaSortKey: -1659433429491.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

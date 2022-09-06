@@ -1,0 +1,43 @@
+_id: req_c590c85d27644f8eb96caab8813c89c6
+type: Request
+parentId: fld_8dc82bc93064493c9e5640c81ea42ba7
+modified: 1660189211927
+created: 1657854469156
+url: http://localhost:8083/web/signup
+name: Docker Odoo web signup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "jsonrpc": "2.0",
+      "method": "call",
+      "params": {
+        "login": "fest3@gmail.com",
+        "password": "1",
+        "confirm_password": "1",
+        "x_self_reported_company": "Test Co",
+        "country_id": "22",
+        "industry_id": "28",
+        "name": "Testing"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/html
+    id: pair_23e93b3898644242b7204c2ff5bef508
+  - id: pair_686410db73ef4b0cb5f6f9d00a8e151b
+    name: Cookie
+    value: session_id=16b3d19b0db5de4fb96fb2cca6c69fb9e67a9698
+    description: ""
+authentication: {}
+metaSortKey: -1658862722397
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

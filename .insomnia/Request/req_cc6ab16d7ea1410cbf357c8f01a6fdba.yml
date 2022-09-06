@@ -1,0 +1,63 @@
+_id: req_cc6ab16d7ea1410cbf357c8f01a6fdba
+type: Request
+parentId: fld_9c3960505f5a4bb09dc480117c751110
+modified: 1659995511471
+created: 1659623757462
+url: https://accounts.salesloft.com/oauth/authorize
+name: OAuth authorization
+description: ""
+method: GET
+body:
+  mimeType: text/plain
+  text: "\n"
+parameters:
+  - id: pair_1ec8e9ff32934fb2a470c9e2900cb5b5
+    name: client_id
+    value: 107320_4fcb2970152946ebadbe4233e7ef1d2bb134b90d463bb391308fcc711586109d
+    description: ""
+  - id: pair_928b9d0223ae4995917b797055e09081
+    name: client_secret
+    value: b8f274dd71fc650626bad56d47e5c97fd2f2f707eea9d5c2ca9e61f196877501
+    description: ""
+    disabled: true
+  - id: pair_6c61e894e00b4e0a92f91c8775b2abd1
+    name: grant_type
+    value: authorization_code
+    description: ""
+    disabled: true
+  - id: pair_e7a9d5d160374447869857777a9f500c
+    name: redirect_uri
+    value: https%3A%2F%2Ffacewaretech.odoo.com%2F
+    description: ""
+  - id: pair_02fecb2ba1c94eaba8e01d123225ba9f
+    name: response_type
+    value: code
+    description: ""
+  - id: pair_6fd3f4f8c36d47b8b547e8121f99f52a
+    name: context
+    value: ""
+    description: ""
+    disabled: true
+  - id: pair_c47120d5300b4d40bf67404f97617ce0
+    name: scope
+    value: public:all
+    description: ""
+    disabled: false
+  - id: pair_3322ec286af345bbbc04a4c2fb339245
+    name: code
+    value: ""
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: text/plain
+    id: pair_03e976af149b41938b9f6ace36b5bf3f
+authentication: {}
+metaSortKey: -1659623757462
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,45 @@
+_id: req_4875f5233b884df4807543a30dcd21da
+type: Request
+parentId: fld_98b8278aabb04783819f4e98f30b709c
+modified: 1661370325872
+created: 1660032624673
+url: http://localhost:8083/salesloft/createperson
+name: Localhost create person POST
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"params":{"id":"test"}}'
+parameters:
+  - id: pair_30a4a76d89064d288a5164f003c363c3
+    name: email
+    value: test2103@test.com
+    description: ""
+    disabled: true
+headers:
+  - id: pair_f8f95b17b20145caab4a96043ef5e37e
+    name: Authorization
+    value: Bearer
+      v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+    description: ""
+    disabled: true
+  - name: Content-Type
+    value: application/json
+    id: pair_40c46c2086db4fb5b523f98975effdcf
+    disabled: false
+  - id: pair_555e205d52c44eafbebe308463149fa0
+    name: Cookie
+    value: session_id=a83dd07596ef9d46ddcbe24b28f6b80a1a620a3b
+    description: ""
+authentication:
+  type: bearer
+  token: v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+  disabled: true
+metaSortKey: -1658957840329.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

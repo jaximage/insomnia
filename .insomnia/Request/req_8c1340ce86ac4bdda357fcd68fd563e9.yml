@@ -1,0 +1,26 @@
+_id: req_8c1340ce86ac4bdda357fcd68fd563e9
+type: Request
+parentId: fld_9c3960505f5a4bb09dc480117c751110
+modified: 1659995513011
+created: 1659624433294
+url: https://accounts.salesloft.com/oauth/token
+name: OAuth obtain tokens
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "\n"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_03e976af149b41938b9f6ace36b5bf3f
+authentication: {}
+metaSortKey: -1659623757512
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

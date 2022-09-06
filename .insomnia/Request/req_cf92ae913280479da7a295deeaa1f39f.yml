@@ -1,0 +1,43 @@
+_id: req_cf92ae913280479da7a295deeaa1f39f
+type: Request
+parentId: fld_2af6c399934041b2a7705e38e291c750
+modified: 1661580554082
+created: 1661565963848
+url: https://api.salesloft.com/v2/activities/emails/93959683.json
+name: Salesloft get email by id
+description: ""
+method: GET
+body:
+  mimeType: text/plain
+  text: ""
+parameters:
+  - id: pair_583f7ebf10e640329f02d92513f10165
+    name: person_id
+    value: "63498341"
+    description: ""
+    disabled: true
+  - id: pair_51b0e89467ef494e8310a93a6337c4f5
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - id: pair_f8f95b17b20145caab4a96043ef5e37e
+    name: Authorization
+    value: Bearer
+      v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+    description: ""
+  - name: Content-Type
+    value: text/plain
+    id: pair_40c46c2086db4fb5b523f98975effdcf
+authentication:
+  type: bearer
+  token: v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+  disabled: true
+metaSortKey: -1659433429506.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

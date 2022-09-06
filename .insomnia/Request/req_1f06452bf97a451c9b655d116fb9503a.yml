@@ -1,0 +1,29 @@
+_id: req_1f06452bf97a451c9b655d116fb9503a
+type: Request
+parentId: fld_2af6c399934041b2a7705e38e291c750
+modified: 1660455618634
+created: 1659869763510
+url: https://api.salesloft.com/v2/me.json
+name: Salesloft get current person
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_f8f95b17b20145caab4a96043ef5e37e
+    name: Authorization
+    value: Bearer
+      v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+    description: ""
+authentication:
+  type: bearer
+  token: v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+  disabled: true
+metaSortKey: -1659433429441.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

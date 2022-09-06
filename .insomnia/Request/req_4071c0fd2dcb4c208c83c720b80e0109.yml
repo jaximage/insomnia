@@ -1,0 +1,45 @@
+_id: req_4071c0fd2dcb4c208c83c720b80e0109
+type: Request
+parentId: fld_6a0fb9a8e5a04fe59cebb1325eeefe4b
+modified: 1661370677097
+created: 1661191197358
+url: https://facewaretech.odoo.com/web/uuid?login=josh@facewaretech.com
+name: Odoo web uuid
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |
+    {
+      "jsonrpc": "2.0",
+      "method": "call",
+      "params": {
+        "login": "jackTest496"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/html
+    id: pair_23e93b3898644242b7204c2ff5bef508
+  - id: pair_686410db73ef4b0cb5f6f9d00a8e151b
+    name: Cookie
+    value: session_id=16b3d19b0db5de4fb96fb2cca6c69fb9e67a9698
+    description: ""
+  - id: pair_0c297cfd7d294da1a3fb3524c812775e
+    name: User-Agent
+    value: FacewareMobile/1.0 iOS
+    description: ""
+  - id: pair_b4f81779a8184a46a777adf4af35f171
+    name: X-Secret
+    value: fti-4b42-70e6-13ed-a5b4-fwmob
+    description: ""
+authentication: {}
+metaSortKey: -1658862672021
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,10 @@
+_id: fld_0862b70c42fc42c0b9a437c1693b21e4
+type: RequestGroup
+parentId: wrk_532ea2460c6f4779bab436063103d3e7
+modified: 1661283057543
+created: 1661283048574
+name: Odoo
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1658862756816

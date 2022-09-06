@@ -1,0 +1,45 @@
+_id: req_1003ea6d5d6a47ffb410821bbc665b5c
+type: Request
+parentId: fld_8dc82bc93064493c9e5640c81ea42ba7
+modified: 1660982624442
+created: 1658348914084
+url: http://localhost:8083/web/uuid?login=jackson.kim@image-metrics.com
+name: Docker Odoo web uuid
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |
+    {
+      "jsonrpc": "2.0",
+      "method": "call",
+      "params": {
+        "login": "fest3@gmail.com"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/html
+    id: pair_23e93b3898644242b7204c2ff5bef508
+  - id: pair_686410db73ef4b0cb5f6f9d00a8e151b
+    name: Cookie
+    value: session_id=16b3d19b0db5de4fb96fb2cca6c69fb9e67a9698
+    description: ""
+  - id: pair_0c297cfd7d294da1a3fb3524c812775e
+    name: User-Agent
+    value: FacewareMobile/1.0 iOS
+    description: ""
+  - id: pair_bf7421398ea649ee88620bb535d5a6fe
+    name: X-Secret
+    value: fti-4b42-70e6-13ed-a5b4-fwmob
+    description: ""
+authentication: {}
+metaSortKey: -1658862722497
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
