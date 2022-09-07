@@ -1,41 +1,34 @@
-_id: req_4875f5233b884df4807543a30dcd21da
+_id: req_bb592ce7d0be4f7ca781f470c4587de9
 type: Request
-parentId: fld_98b8278aabb04783819f4e98f30b709c
-modified: 1662455838828
-created: 1660032624673
-url: http://localhost:8083/salesloft/createperson
-name: Localhost create person POST
+parentId: fld_2af6c399934041b2a7705e38e291c750
+modified: 1662454843468
+created: 1662454652007
+url: https://api.salesloft.com/v2/webhook_subscriptions
+name: Salesloft get webhooks
 description: ""
-method: POST
+method: GET
 body:
-  mimeType: application/json
-  text: '{"params":{"id":"test"}}'
+  mimeType: text/plain
+  text: ""
 parameters:
-  - id: pair_30a4a76d89064d288a5164f003c363c3
-    name: email
-    value: test2103@test.com
+  - id: pair_88a2b5ccc85d4c99a534ca389f88dd87
+    name: enabled
+    value: "true"
     description: ""
-    disabled: true
 headers:
   - id: pair_f8f95b17b20145caab4a96043ef5e37e
     name: Authorization
     value: Bearer
       v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
     description: ""
-    disabled: true
   - name: Content-Type
-    value: application/json
+    value: text/plain
     id: pair_40c46c2086db4fb5b523f98975effdcf
-    disabled: false
-  - id: pair_555e205d52c44eafbebe308463149fa0
-    name: Cookie
-    value: session_id=a83dd07596ef9d46ddcbe24b28f6b80a1a620a3b
-    description: ""
 authentication:
   type: bearer
   token: v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
   disabled: true
-metaSortKey: -1659017288958.9844
+metaSortKey: -1659433429410
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

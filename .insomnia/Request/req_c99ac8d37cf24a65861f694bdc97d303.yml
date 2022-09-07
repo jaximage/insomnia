@@ -1,0 +1,37 @@
+_id: req_c99ac8d37cf24a65861f694bdc97d303
+type: Request
+parentId: fld_2af6c399934041b2a7705e38e291c750
+modified: 1662455073566
+created: 1662454997376
+url: https://api.salesloft.com/v2/webhook_subscriptions/24093
+name: Salesloft delete webhook
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 24093
+    }
+parameters: []
+headers:
+  - id: pair_f8f95b17b20145caab4a96043ef5e37e
+    name: Authorization
+    value: Bearer
+      v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+    description: ""
+  - name: Content-type
+    value: application/json; charset=utf-8
+    id: pair_21b87b8d0ca743a1a931da8e371f1172
+authentication:
+  type: bearer
+  token: v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
+  disabled: true
+metaSortKey: -1659433429397.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

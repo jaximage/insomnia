@@ -1,34 +1,17 @@
-_id: req_9b7c9e3fd95c4dd8ad8eac157cffb533
+_id: req_b89905e148464cda9274c4a67f6c4639
 type: Request
 parentId: fld_2af6c399934041b2a7705e38e291c750
-modified: 1662454756274
-created: 1660117631426
-url: https://api.salesloft.com/v2/people/63046636.json
-name: Salesloft update person
+modified: 1662455265241
+created: 1662454764969
+url: https://api.salesloft.com/v2/webhook_subscriptions/24093
+name: Salesloft update webhook
 description: ""
 method: PUT
 body:
   mimeType: application/json
   text: |-
     {
-    		"email": "dude@salesloft.com",
-    		"name": "Test Test1112",
-    		"phone": "333-444-5555",
-    		"title": "Head Tester",
-    		"city": "Oxnard",
-    		"state": "CA",
-    		"country": "USA",
-    		"work_city": "Oakland",
-    		"work_state": "Cali",
-    		"work_country": "United States",
-    		"person_company_name": "TestCo",
-    		"person_company_website": "https://www.co1111.com",
-    		"person_company_industry": "Industry",
-        "custom_fields": {		
-    			"MQL Form Source": "New Account",
-    			"Sales Channel": "BENELUX",
-    			"Salesperson": "Jeremy Ruiz"
-    		}
+    	"callback_token": "fti-5e10-92c2-33ae-b2c7-sloft"
     }
 parameters: []
 headers:
@@ -44,7 +27,7 @@ authentication:
   type: bearer
   token: v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
   disabled: true
-metaSortKey: -1659433429416.25
+metaSortKey: -1659433429403.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
