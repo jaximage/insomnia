@@ -1,23 +1,24 @@
-_id: req_b2457784b58743f68a4a510f4597b11e
+_id: req_533c4b420492498fb1471fb00b16f359
 type: Request
-parentId: fld_6a0fb9a8e5a04fe59cebb1325eeefe4b
-modified: 1667863112879
-created: 1661191197359
-url: https://facewaretech.odoo.com/app/signup
-name: Odoo app signup
+parentId: fld_d121b0630bde4b5ab9ec982429251bce
+modified: 1670477250613
+created: 1670464901297
+url: https://facewaretech-upgrade-odoo-15-2-6549172.dev.odoo.com/app/signup
+name: QA Odoo create trial
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: |
     {
-      "jsonrpc": "2.0",
-      "method": "call",
+    	"jsonrpc": "2.0", 
+    	"method": "call", 
       "params": {
-    		"password": "qwerty",
-    		"confirm_password": "qwerty",
-    		"login": "jackTest603@im.com",
-    		"name": "Jack Test603"
+    		"session_id": "", 
+    		"licensePId": "7561300100", 
+    		"deviceId": "74-873a-2a2ad3a671a8", 
+    		"deviceNalpeiron": "3v2CfA47Vtqs5Lai99P9", 
+    		"productName": "Faceware Studio"
       }
     }
 parameters: []
@@ -35,7 +36,7 @@ authentication:
   disabled: false
   username: FT1Pass1
   password: ""
-metaSortKey: -1658862671971
+metaSortKey: -1658862671946
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_62ae9a70897d42089f146f2778674777
 type: Request
 parentId: fld_2af6c399934041b2a7705e38e291c750
-modified: 1661370189360
+modified: 1662710435937
 created: 1659954301651
 url: https://api.salesloft.com/v2/people.json
 name: Salesloft get persons
@@ -9,9 +9,9 @@ description: ""
 method: GET
 body:
   mimeType: application/json
-  text: >-
+  text: |-
     {
-    	"email_addresses": ["nicholas.glean@sunderland.ac.uk", "test1659948665@test.com","test12345abc123@gmail.com","test1659948610@test.com"]
+    	"email_addresses": ["new@slguy.com"]
     }
 parameters: []
 headers:

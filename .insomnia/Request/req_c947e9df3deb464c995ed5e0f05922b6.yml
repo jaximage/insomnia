@@ -1,9 +1,9 @@
 _id: req_c947e9df3deb464c995ed5e0f05922b6
 type: Request
 parentId: fld_d121b0630bde4b5ab9ec982429251bce
-modified: 1660982878789
+modified: 1670477243949
 created: 1660673220597
-url: https://facewaretech-qa-uuid-5594505.dev.odoo.com/app/signup
+url: https://facewaretech-upgrade-odoo-15-2-6549172.dev.odoo.com/app/signup
 name: QA Odoo app signup
 description: ""
 method: POST
@@ -14,10 +14,12 @@ body:
       "jsonrpc": "2.0",
       "method": "call",
       "params": {
+    		"login": "jackTest512@im.com",
     		"password": "qwerty",
     		"confirm_password": "qwerty",
-    		"login": "jackTest497@im.com",
-    		"name": "Jack Test497"
+    		"x_self_reported_company": "IM",
+    		"industry_id": "0",
+    		"name": "Jack Test512"
       }
     }
 parameters: []

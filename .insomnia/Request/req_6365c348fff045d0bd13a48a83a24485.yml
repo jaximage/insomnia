@@ -1,7 +1,7 @@
 _id: req_6365c348fff045d0bd13a48a83a24485
 type: Request
 parentId: fld_2af6c399934041b2a7705e38e291c750
-modified: 1660771003213
+modified: 1664756760740
 created: 1659912028542
 url: https://api.salesloft.com/v2/people.json
 name: Salesloft create new person
@@ -11,11 +11,16 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email_address": "test123abc1234@gmail.com",
-    	"secondary_email_address": "test123abc1234@gmail.com",
-    	"personal_email_address": "test123abc1234@gmail.com",
-    	"first_name": "AbcTEST",
+    	"email_address": "babctest@gmail.com",
+    	"secondary_email_address": "babctest2@gmail.com",
+    	"personal_email_address": "babctest3@gmail.com",
+    	"first_name": "BAbcTEST",
     	"last_name": "DefTEST",
+    	"custom_fields": {
+    		"MQL Form Source": "Web Contact",
+    		"Sales Channel": "AUSTRALIA / NEW ZEALAND",
+    		"Salesperson": "Josh Beaudry"
+    	},
     	"phone": "444 555 6666",
     	"title": "TESTER",
     	"city": "Atlanta",

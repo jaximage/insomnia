@@ -1,10 +1,10 @@
-_id: req_b89b19caf6cf42a1974fcbdc1d9acbf8
+_id: req_fc45dea605bc47cbbeed5d3f373d093a
 type: Request
 parentId: fld_2af6c399934041b2a7705e38e291c750
-modified: 1666293154862
-created: 1661238154832
-url: https://api.salesloft.com/v2/activities/calls.json
-name: Salesloft get calls by ids
+modified: 1666293159752
+created: 1662624032556
+url: https://api.salesloft.com/v2/notes.json
+name: Salesloft get notes by ids
 description: ""
 method: GET
 body:
@@ -12,18 +12,25 @@ body:
   text: ""
 parameters:
   - id: pair_583f7ebf10e640329f02d92513f10165
-    name: person_id
+    name: associated_with_id
     value: "66048678"
     description: ""
-    disabled: true
+    disabled: false
   - id: pair_51b0e89467ef494e8310a93a6337c4f5
-    name: ""
-    value: ""
+    name: associated_with_type
+    value: person
     description: ""
-  - id: pair_f4e1710fc1f94538a73963e3e668a0be
-    name: person_id
-    value: "78223676"
+    disabled: false
+  - id: pair_34192b330e8e492e9f835af16888a36e
+    name: associated_with_id
+    value: "23203319"
     description: ""
+    disabled: true
+  - id: pair_225bfc4977b946ff8032a9fd0bffe7f1
+    name: associated_with_type
+    value: account
+    description: ""
+    disabled: true
 headers:
   - id: pair_f8f95b17b20145caab4a96043ef5e37e
     name: Authorization
@@ -37,7 +44,7 @@ authentication:
   type: bearer
   token: v2_ak_107320_1474b0c8aeb0a13e5d3f1c924daf54062ed58c761197c0de92473eac3dc334a3
   disabled: true
-metaSortKey: -1659433429516.25
+metaSortKey: -1659433429513.125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

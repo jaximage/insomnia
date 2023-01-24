@@ -1,0 +1,45 @@
+_id: req_2aed30f5f1484e3c975ea6ca4d1fad69
+type: Request
+parentId: fld_d121b0630bde4b5ab9ec982429251bce
+modified: 1670476848766
+created: 1670468050674
+url: https://facewaretech-upgrade-odoo-15-2-6549172.dev.odoo.com/apis/form
+name: QA Contact Us test
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "jsonrpc": "2.0",
+      "method": "call",
+      "params": {
+    		"originForm": "Contact",
+    		"name": "Name 514",
+    		"email": "name514@gmail.com",
+    		"company": "NameCompany",
+    		"industry": "Gaming",
+    		"country": "Spain",
+    		"useCase": "None",
+    		"source": "Trade Show",
+    		"interestedProducts": "Retargeter 5,New1,Realtime for Iclone,Shepherd 1,New2,Faceware Portal",
+    		"interestedWorkflow": "Realtime- Audience Facing",
+    		"hasProject": "yes",
+    		"decisionTimeline": "2-3 Months",
+    		"evalTimeline": "2-3 Months",
+    		"comment": "hello there"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1658862671821
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

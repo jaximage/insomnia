@@ -1,0 +1,45 @@
+_id: req_078ae67a2a6d4e01bbb183373b112a8b
+type: Request
+parentId: fld_6a0fb9a8e5a04fe59cebb1325eeefe4b
+modified: 1670468036748
+created: 1667862852927
+url: https://facewaretech.odoo.com/apis/form
+name: Contact Us test
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "jsonrpc": "2.0",
+      "method": "call",
+      "params": {
+    		"originForm": "Contact",
+    		"name": "Name 023",
+    		"email": "name023@gmail.com",
+    		"company": "NameCompany",
+    		"industry": "Gaming",
+    		"country": "Spain",
+    		"useCase": "None",
+    		"source": "Trade Show",
+    		"interestedProducts": "Retargeter 5,New1,Realtime for Iclone,Shepherd 1,New2,Faceware Portal",
+    		"interestedWorkflow": "Realtime- Audience Facing",
+    		"hasProject": "yes",
+    		"decisionTimeline": "2-3 Months",
+    		"evalTimeline": "2-3 Months",
+    		"comment": "hi there"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1658862671921
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,26 +1,28 @@
-_id: req_f149538a31d843499fc7565e566c7d74
+_id: req_0511d34369e8466eafb40d6a0f4e8dd9
 type: Request
 parentId: fld_d121b0630bde4b5ab9ec982429251bce
-modified: 1670467985028
-created: 1660673129168
-url: https://facewaretech-upgrade-odoo-15-2-6549172.dev.odoo.com/web/uuid
-name: QA Odoo web uuid
+modified: 1670467943906
+created: 1670465767903
+url: https://facewaretech-upgrade-odoo-15-2-6549172.dev.odoo.com/app/exInfo
+name: QA Odoo exInfo
 description: ""
 method: GET
 body:
   mimeType: application/json
-  text: |
-    {
-      "jsonrpc": "2.0",
-      "method": "call",
-      "params": {
-        "login": "jackTest496"
-      }
-    }
+  text: ""
 parameters:
-  - id: pair_52274f56cf1642709a9ab98c84cb2312
-    name: login
-    value: jackTest512@im.com
+  - id: pair_73a2050ed2924a019c8969ef7e2f14b7
+    name: v1
+    value: Faceware Studio
+    description: ""
+  - id: pair_e1e23fc2ff124704a00f887b43ede864
+    name: v2
+    value: 74-873a-2a2ad3a671a8
+    description: ""
+    disabled: true
+  - id: pair_4e98c61fc51a41308d5c0adf589a4065
+    name: v3
+    value: 3v2CfA47Vtqs5Lai99P9
     description: ""
 headers:
   - name: Content-Type
@@ -39,7 +41,7 @@ headers:
     value: fti-4b42-70e6-13ed-a5b4-fwmob
     description: ""
 authentication: {}
-metaSortKey: -1658862672021
+metaSortKey: -1658862671996
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

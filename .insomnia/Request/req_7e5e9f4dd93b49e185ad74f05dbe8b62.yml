@@ -1,7 +1,7 @@
 _id: req_7e5e9f4dd93b49e185ad74f05dbe8b62
 type: Request
 parentId: fld_06613140bf1e474893ce64214c697141
-modified: 1658864796113
+modified: 1674582883475
 created: 1656396488859
 url: https://my.nalpeiron.com/shaferws.asmx/AddGroupUser
 name: Nalpeiron create user
@@ -9,14 +9,19 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: >-
+  text: >
     {
       "jsonrpc": "2.0",
      	"params": {
-    		'Auth': '<auth><username>FacewareTech</username><password>FTIPass1</password><customerid>5064</customerid></auth>',
-    		'Data': '<data><username>jackson.kim3@image-metrics.com</username></data>'
+    		'Auth': '<auth><username>FacewareTech</username><password>FTIPass1</password><customerid>5064</customerid><groupid>1963</groupid></auth>',
+    		'Data': '<data><username>cmikef@gmail.com</username><password>C5t&774!zT1</password></data>'
     	}
     }
+
+
+    <auth><username>wsusername</username><password>wspassword</password><customerid>1234</customerid></auth>
+
+    <data><groupid>1963</groupid><username>cmikef@gmail.com</username><password>C5t&774!zT1</password></data>
 parameters: []
 headers:
   - name: Content-Type
